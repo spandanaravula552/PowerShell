@@ -2,3 +2,7 @@ What is Powershell: Powershell is cross-platform tool, we can run it on mac, win
 To install PowerShell: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#msi
 To install Azure Powershell modules in powershell utility: https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-14.2.0&tabs=windowspowershell&pivots=windows-psgallery
 run set execution policy command, and install of Az module command in powershell. this module have azure packages such as a.compute, logicapp, marketplace,az.migrate and all resuroces.
+To Connect to Azure Account give command in PS: Connect-AzAccount, then it will ask for credentials of azure account
+To define variables in PS: $Variable_name
+To create resource group: New-AzResourceGroup -Name $Resource_group_name -Location $Location
+To Create new VNET : New-AzVirtualNetwork -Name $vnetname -ResourceGroupName $rgname -Location $locationname -AddressPrefix 10.0.0.0/16
