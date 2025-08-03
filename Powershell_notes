@@ -1,0 +1,4 @@
+What is Powershell: Powershell is cross-platform tool, we can run it on mac, windows and linux, it is a command line utility to interacte with aure resources and with system also. used to write script.
+To install PowerShell: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#msi
+To install Azure Powershell modules in powershell utility: https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-14.2.0&tabs=windowspowershell&pivots=windows-psgallery
+run set execution policy command, and install of Az module command in powershell. this module have azure packages such as a.compute, logicapp, marketplace,az.migrate and all resuroces.
